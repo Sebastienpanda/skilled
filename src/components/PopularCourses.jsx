@@ -3,7 +3,7 @@ import { Card } from "./Card.jsx";
 export function PopularCourses() {
   return (
     <>
-      <section className="backgroundSection mt-[66px] md:mt-[123px] lg:mt-[320px] pb-20 md:pb-[86px] lg:pb-[140px]">
+      <section className="backgroundSection md:mt-[210px] lg:mt-[250px] pb-20 md:pb-[86px] lg:pb-[140px]">
         <div className="grid-container px-4 md:px-10 lg:px-[165px]">
           <div className="header-block px-7 pt-6 pb-8 md:pl-8 md:pr-[21px] md:pt-[54px] lg:pt-16 lg:pb-[138px] lg:px-8">
             <h2 className="text-[1.5rem] lg:text-[2rem]">
