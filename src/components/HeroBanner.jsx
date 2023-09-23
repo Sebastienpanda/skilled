@@ -1,7 +1,7 @@
 export function HeroBanner() {
   return (
     <>
-      <div className="hidden md:block md:absolute md:top-0 md:right-0">
+      <div className="hidden md:block md:absolute md:top-[16px] lg:top-[-18px] md:right-0">
         <picture>
           <source
             srcSet="../assets/images/image-hero-tablet.webp"
@@ -26,9 +26,9 @@ export function HeroBanner() {
           />
         </picture>
       </div>
-      <section className="mt-[38px] mx-4 md:mx-10 lg:mx-[165px]">
+      <section className="mt-[38px] mx-4 md:mx-10 md:mt-[100px] lg:mt-[180px] lg:mx-[165px]">
         <div className="md:flex">
-          <div className="flex flex-col gap-[1.5rem] pb-[2.875rem] md:w-1/2 md:pt-20 md:pb-0">
+          <div className="flex flex-col gap-[1.5rem] pb-[2.875rem] md:w-1/2 md:pb-0">
             <h1 className="text-[2.375rem] lg:text-[3.5rem]">
               Maximize skill, minimize budget
             </h1>
